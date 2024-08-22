@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="text-8xl gradient_text">Hi, I&apos;m Tuhina Das!</h1>
         <div className="mt-[3vh]">
           <h2 className="text-3xl font-semibold">
-            I'm a high school student studying
+            I&apos;m a high school student studying
           </h2>
           <h2 className="text-3xl mx-2 gradient_text">
             {" "}
