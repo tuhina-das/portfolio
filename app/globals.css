@@ -19,7 +19,6 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -42,7 +41,7 @@
 
 .gradient {
   height: fit-content;
-  z-index: 3;
+  z-index: -1;
   width: 100%;
   max-width: 640px;
   background-image: radial-gradient(
@@ -69,6 +68,11 @@
   .main {
     padding: 0;
   }
+}
+
+/* Text Styles */
+.gradient_text {
+  @apply align-middle font-semibold bg-gradient-to-r from-blue-600 via-purple-500 to-orange-500 inline-block text-transparent bg-clip-text;
 }
 
 /* Navbar Styles */

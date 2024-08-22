@@ -21,19 +21,17 @@ export default function Home() {
         </div>
       </div>
       {/* Home Page Content */}
-      <div className="border-solid border-black border-2 my-10 mx-2 px-3content-center">
-        <h1 className="text-5xl font-semibold font-black">
-          Hi, I'm Tuhina Das!
-        </h1>
-        <span className="flex">
-          <h2 className="text-3xl font-light">
+      <div className="mx-auto text-center max-w-5xl my-[30vh] px-3">
+        <h1 className="text-8xl gradient_text">Hi, I'm Tuhina Das!</h1>
+        <div className="mt-[3vh]">
+          <h2 className="text-3xl font-semibold">
             I'm a high school student studying{" "}
           </h2>
-          <h2 className="text-3xl mx-2 font-semibold">
+          <h2 className="text-3xl mx-2 gradient_text">
             {" "}
             full-stack web development.
           </h2>
-        </span>
+        </div>
       </div>
     </>
   );
