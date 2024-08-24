@@ -22,14 +22,18 @@ export default function Home() {
       </div>
       {/* Home Page Content */}
       <div className="mx-auto text-center max-w-5xl my-[30vh] px-3">
-        <h1 className="text-8xl gradient_text">Hi, I&apos;m Tuhina Das!</h1>
+        {/* <h1 className="text-8xl gradient_text">Hi, I&apos;m Tuhina Das!</h1> */}
+        <h1 className="text-8xl gradient_text">Coming Soon!</h1>
         <div className="mt-[3vh]">
-          <h2 className="text-3xl font-semibold">
+          {/* <h2 className="text-3xl font-semibold">
             I&apos;m a high school student studying
           </h2>
           <h2 className="text-3xl mx-2 gradient_text">
             {" "}
             full-stack web development.
+          </h2> */}
+          <h2 className="text-3xl font-semibold">
+            Stay tuned for the big reveal 🫶
           </h2>
         </div>
       </div>
