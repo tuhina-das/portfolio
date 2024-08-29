@@ -25,24 +25,24 @@ const About = () => {
             second world that gradually opened up with the evolution of the
             Internet. As I traverse high school, this love for technology has
             evolved into my passion for software development. Inherently an
-            artist, I&aposve found my canvas in programming. I&aposve engaged
+            artist, I&apos;ve found my canvas in programming. I&apos;ve engaged
             with numerous computer science courses at Liberty High School,
             immersed myself in summer workshops at multiple universities, and
-            I&aposm currently furthering my technical education in software
+            I&apos;m currently furthering my technical education in software
             development as a student in Code2College, a career development
-            organization for driven students interested in tech. ​ When I&aposm
+            organization for driven students interested in tech. ​ When I&apos;m
             not working on a program, studying something new, or organizing my
             space, you can find me creating vivid illustrations, playing the
             piano, or wandering through the latest historical fiction novel
-            I&aposve gotten my hands on. ​ I&aposm eager to continue journeying
-            forward and join the movement that develops technology for a
-            brighter future.
+            I&apos;ve gotten my hands on. ​ I&apos;m eager to continue
+            journeying forward and join the movement that develops technology
+            for a brighter future.
           </p>
         </div>
       </div>
       <div className="text-center mx-[5vw] py-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">
         <h1 className="text-3xl gradient_text">
-          &quotCarpe diem!&quot - unknown
+          &quot;Carpe diem!&quot; - unknown
         </h1>
       </div>
     </>
