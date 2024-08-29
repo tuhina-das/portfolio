@@ -25,17 +25,18 @@ const About = () => {
             second world that gradually opened up with the evolution of the
             Internet. As I traverse high school, this love for technology has
             evolved into my passion for software development. Inherently an
-            artist, I&aposve found my canvas in programming. I've engaged with
-            numerous computer science courses at Liberty High School, immersed
-            myself in summer workshops at multiple universities, and I'm
-            currently furthering my technical education in software development
-            as a student in Code2College, a career development organization for
-            driven students interested in tech. ​ When I'm not working on a
-            program, studying something new, or organizing my space, you can
-            find me creating vivid illustrations, playing the piano, or
-            wandering through the latest historical fiction novel I've gotten my
-            hands on. ​ I'm eager to continue journeying forward and join the
-            movement that develops technology for a brighter future.
+            artist, I&aposve found my canvas in programming. I&aposve engaged
+            with numerous computer science courses at Liberty High School,
+            immersed myself in summer workshops at multiple universities, and
+            I&aposm currently furthering my technical education in software
+            development as a student in Code2College, a career development
+            organization for driven students interested in tech. ​ When I&aposm
+            not working on a program, studying something new, or organizing my
+            space, you can find me creating vivid illustrations, playing the
+            piano, or wandering through the latest historical fiction novel
+            I&aposve gotten my hands on. ​ I&aposm eager to continue journeying
+            forward and join the movement that develops technology for a
+            brighter future.
           </p>
         </div>
       </div>
