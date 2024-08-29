@@ -6,6 +6,14 @@ export const metadata = {
   description: "Tuhina Das's Digital Portfolio",
 };
 
+/*
+  TODO 8/27/24:
+  - Make mobile-friendly
+  - Fix footer
+  - Add cover img for home page
+  - 
+*/
+
 export default function Home() {
   return (
     <>
