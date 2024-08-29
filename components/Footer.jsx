@@ -12,7 +12,7 @@ const Foot = () => {
           <p>Contact me:</p>
           <p>tuhinakdas@gmail.com</p>
         </div>
-        <div>Let's connect:</div>
+        <div>Let&aposs connect:</div>
         <div>Github:</div>
         ©2024 by Tuhina Das.
       </footer>

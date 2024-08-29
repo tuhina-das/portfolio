@@ -25,7 +25,7 @@ const About = () => {
             second world that gradually opened up with the evolution of the
             Internet. As I traverse high school, this love for technology has
             evolved into my passion for software development. Inherently an
-            artist, I've found my canvas in programming. I've engaged with
+            artist, I&aposve found my canvas in programming. I've engaged with
             numerous computer science courses at Liberty High School, immersed
             myself in summer workshops at multiple universities, and I'm
             currently furthering my technical education in software development
@@ -40,7 +40,9 @@ const About = () => {
         </div>
       </div>
       <div className="text-center mx-[5vw] py-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">
-        <h1 className="text-3xl gradient_text">"Carpe diem!" - unknown</h1>
+        <h1 className="text-3xl gradient_text">
+          &quotCarpe diem!&quot - unknown
+        </h1>
       </div>
     </>
   );

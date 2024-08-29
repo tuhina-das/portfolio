@@ -37,7 +37,9 @@ export default function Home() {
         </div>
 
         <div className="py-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">
-          <h1 className="text-3xl gradient_text">"Carpe diem!" - unknown</h1>
+          <h1 className="text-3xl gradient_text">
+            &quotCarpe diem!&quot - unknown
+          </h1>
         </div>
       </div>
     </>
