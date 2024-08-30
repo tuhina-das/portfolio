@@ -72,7 +72,7 @@
 
 /* Text Styles */
 .gradient_text {
-  @apply align-middle font-semibold bg-gradient-to-r from-blue-600 via-purple-500 to-orange-500 inline-block text-transparent bg-clip-text;
+  @apply font-semibold bg-gradient-to-r from-blue-600 via-purple-500 to-orange-500 inline-block text-transparent bg-clip-text;
 }
 
 /* Navbar Styles */
@@ -85,5 +85,9 @@
 }
 
 .nav_options_text {
-  @apply align-middle font-inter font-light text-blue-500;
+  @apply hover:font-semibold align-middle font-inter font-light text-blue-500;
+}
+
+Link:hover {
+  @apply underline font-semibold;
 }

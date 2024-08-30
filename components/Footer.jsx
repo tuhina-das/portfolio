@@ -7,14 +7,17 @@ import { useState, useEffect } from "react";
 const Foot = () => {
   return (
     <>
-      <footer className="nav_options_text relative bottom-0 w-full mx-auto justify-between min-h-[5vh] rounded-lg h-fit mt-[15vh] p-[2vh] bg-white">
+      {/* border-solid border-black border-50px nav_options_text relative bottom-0 w-full mx-auto justify-between min-h-[5vh] rounded-lg h-fit mt-[15vh] p-[2vh] bg-white */}
+      <footer className="text-center nav_options_text relative bottom-0 w-full mx-auto min-h-[5vh] h-fit mt-[15vh] p-[2vh] bg-white">
+        <p>Contact me:</p>
+        <p>tuhinakdas@gmail.com</p>
         <div>
-          <p>Contact me:</p>
-          <p>tuhinakdas@gmail.com</p>
+          <p>Let&apos;s connect:</p>
         </div>
-        <div>Let&aposs connect:</div>
-        <div>Github:</div>
-        ©2024 by Tuhina Das.
+        <div>
+          <p>Github:</p>
+        </div>
+        <p>©2024 by Tuhina Das.</p>
       </footer>
     </>
   );
