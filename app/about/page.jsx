@@ -3,12 +3,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
   return (
     <>
       {/* border-solid border-[5px] border-black */}
-      <div className="mx-auto text-center max-w-5xl my-[3vh] p-3">
+      <div className="flex flex-col mx-auto items-center text-center max-w-5xl my-[3vh] p-3">
         <h1 className="text-5xl gradient_text mb-[5vh]">ABOUT ME</h1>
         <div className="lg:flex items-center mx-[2vh]">
           <Image
@@ -40,11 +42,21 @@ const About = () => {
             for a brighter future.
           </p>
         </div>
-        <div className="my-[2vh] items-start text-center">
-          <Link href="mailto:tuhinakdas@gmail.com">
-            Email me: tuhinakdas@gmail.com
+        <div className="w-[15vw] flex justify-between">
+          <Link href="mailto:tuhinakdas@gmail.com" target="_blank">
+            <MdEmail
+              style={{
+                fontSize: "3vh",
+              }}
+            />
           </Link>
-          <p>Let's connect: </p>
+          <Link href="linkedin.com/in/tuhina-k-das" target="_blank">
+            <FaLinkedinIn
+              style={{
+                fontSize: "3vh",
+              }}
+            />
+          </Link>
           <p>Resume</p>
         </div>
       </div>

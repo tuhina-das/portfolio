@@ -85,9 +85,9 @@
 }
 
 .nav_options_text {
-  @apply hover:font-semibold align-middle font-inter font-light text-blue-500;
+  @apply align-middle font-inter font-light text-blue-500;
 }
 
-Link:hover {
-  @apply underline font-semibold;
+Link {
+  @apply hover:font-semibold;
 }
