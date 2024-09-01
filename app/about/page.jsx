@@ -42,7 +42,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-[25vw] space-y-10 flex flex-col justify-center">
-          <p className="text-2xl gradient_text">Let's get in touch:</p>
+          <p className="text-2xl gradient_text">Let&apos;s get in touch:</p>
           <Link
             href="mailto:tuhinakdas@gmail.com"
             target="_blank"
