@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Dropdown from "./Dropdown";
 
 const Nav = () => {
   return (
@@ -15,25 +16,25 @@ const Nav = () => {
         </Link>
         {/* Navbar */}
         <div className="flex space-x-5 justify-end w-[60%]">
-          <span className="nav_options_text">
+          <span className="blue_text_style">
             <Link href="/">Home</Link>
           </span>
-          <span className="nav_options_text">
+          <span className="blue_text_style">
             <Link href="/about">About Me</Link>
           </span>
-          <span className="nav_options_text">
+          <span className="blue_text_style">
             <Link href="/about-ISM">About ISM</Link>
           </span>
-          {/* <span className="nav_options_text">
+          {/* <span className="blue_text_style">
             <Link href="/my-work">My Work</Link>
           </span> */}
-          <span className="nav_options_text">
-            <Link href="/research">Research</Link>
+          <span>
+            <Dropdown></Dropdown>
           </span>
-          <span className="nav_options_text">
+          <span className="blue_text_style">
             <Link href="/mentor">Mentor</Link>
           </span>
-          <span className="nav_options_text">
+          <span className="blue_text_style">
             <Link href="/ISM-1">ISM 1</Link>
           </span>
         </div>

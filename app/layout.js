@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Foot from "@/components/Footer";
+import Dropdown from "@/components/Dropdown";
 
 const inter = Inter({ subsets: ["latin"] });
 

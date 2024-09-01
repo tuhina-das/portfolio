@@ -7,11 +7,11 @@ export const metadata = {
 };
 
 /*
-  TODO 8/27/24:
-  - Make mobile-friendly
-  - Fix footer
-  - Add cover img for home page
-  - 
+  TODO 9/1/24:
+  - Responsive navbar
+  - Responsive footer
+  - Responsive pages overall
+  - Home page visual
 */
 
 export default function Home() {
