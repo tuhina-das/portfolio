@@ -16,7 +16,7 @@ const SecondarySources = () => {
               height={300}
             ></Image>
             <div className="text-left p-[2vh] m-[4vh]">
-              <h1 className="pb-[2vh]">SOURCE'S TITLE HERE</h1>
+              <h1 className="pb-[2vh]">SOURCE&apos;S TITLE HERE</h1>
               <p>
                 This section will have a short summary of the source and what I
                 learned, as well as a page link to read more about the source in
