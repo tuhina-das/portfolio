@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
         <main className="app">
           <Nav></Nav>
           {children}
-          <Foot></Foot>
         </main>
+        <Foot></Foot>
       </body>
     </html>
   );

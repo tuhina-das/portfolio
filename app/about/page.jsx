@@ -11,10 +11,9 @@ const About = () => {
     <>
       {/* border-solid border-[5px] border-black */}
       <div className="flex flex-col mx-auto items-center text-center max-w-5xl my-[3vh] p-3">
-        <h1 className="text-5xl gradient_text mb-[5vh]">ABOUT ME</h1>
-        <div className="lg:flex items-center mx-[2vh]">
+        <h1 className="text-5xl gradient_text my-[3vh]">ABOUT ME</h1>
+        <div className="lg:flex items-center mx-[2vh] mb-[2vh]">
           <Image
-            // TODO: style image to have rounded corners + shadow
             src="/assets/images/professionalTuhina.jpg"
             className="mx-auto w-auto h-[400px] rounded-lg shadow-2xl shadow-[#5ec7ff]"
             alt="Me in a professional suit"
@@ -42,25 +41,34 @@ const About = () => {
             for a brighter future.
           </p>
         </div>
-        <div className="w-[15vw] flex justify-between">
-          <Link href="mailto:tuhinakdas@gmail.com" target="_blank">
+        <div className="w-[25vw] space-y-10 flex flex-col justify-center">
+          <p className="text-2xl gradient_text">Let's get in touch:</p>
+          <Link
+            href="mailto:tuhinakdas@gmail.com"
+            target="_blank"
+            className="self-center"
+          >
             <MdEmail
               style={{
                 fontSize: "3vh",
               }}
             />
           </Link>
-          <Link href="linkedin.com/in/tuhina-k-das" target="_blank">
+          <Link
+            href="https://www.linkedin.com/in/tuhina-k-das"
+            target="_blank"
+            className="self-center"
+          >
             <FaLinkedinIn
               style={{
                 fontSize: "3vh",
               }}
             />
           </Link>
-          <p>Resume</p>
+          <p>My Resume</p>
         </div>
       </div>
-      <div className="text-center mx-[5vw] p-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">
+      <div className="text-center mx-[5vw] my-[5vh] p-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">
         <h1 className="text-3xl font-semibold">
           I aspire to{" "}
           <p className="text-3xl gradient_text">pioneer tech solutions</p> that

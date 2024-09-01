@@ -10,7 +10,7 @@ const Foot = () => {
   return (
     <>
       {/* border-solid border-black border-50px nav_options_text relative bottom-0 w-full mx-auto justify-between min-h-[5vh] rounded-lg h-fit mt-[15vh] p-[2vh] bg-white */}
-      <footer className="flex flex-col items-center text-center nav_options_text relative bottom-0 w-full mx-auto min-h-[5vh] h-fit mt-[15vh] p-[2vh] bg-white">
+      <footer className="flex flex-col items-center text-center nav_options_text relative bottom-0 w-full mx-auto min-h-[5vh] h-fit p-[2vh] bg-white">
         <div className="w-[15vw] flex justify-between py-[2vh]">
           <Link href="mailto:tuhinakdas@gmail.com" target="_blank">
             <MdEmail
@@ -19,14 +19,14 @@ const Foot = () => {
               }}
             />
           </Link>
-          <Link href="linkedin.com/in/tuhina-k-das" target="_blank">
+          <Link href="https://www.linkedin.com/in/tuhina-k-das" target="_blank">
             <FaLinkedinIn
               style={{
                 fontSize: "3vh",
               }}
             />
           </Link>
-          <Link href="github.com/tuhina-das" target="_blank">
+          <Link href="https://www.github.com/tuhina-das" target="_blank">
             <FaGithub
               style={{
                 fontSize: "3vh",

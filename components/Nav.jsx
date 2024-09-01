@@ -19,13 +19,22 @@ const Nav = () => {
             <Link href="/">Home</Link>
           </span>
           <span className="nav_options_text">
-            <Link href="/about">About</Link>
+            <Link href="/about">About Me</Link>
           </span>
           <span className="nav_options_text">
+            <Link href="/about-ISM">About ISM</Link>
+          </span>
+          {/* <span className="nav_options_text">
             <Link href="/my-work">My Work</Link>
+          </span> */}
+          <span className="nav_options_text">
+            <Link href="/research">Research</Link>
           </span>
           <span className="nav_options_text">
             <Link href="/mentor">Mentor</Link>
+          </span>
+          <span className="nav_options_text">
+            <Link href="/ISM-1">ISM 1</Link>
           </span>
         </div>
       </div>
