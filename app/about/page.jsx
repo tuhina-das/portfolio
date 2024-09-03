@@ -51,6 +51,7 @@ const About = () => {
             <MdEmail
               style={{
                 fontSize: "3vh",
+                color: "#8d62e0",
               }}
             />
           </Link>
@@ -62,10 +63,11 @@ const About = () => {
             <FaLinkedinIn
               style={{
                 fontSize: "3vh",
+                color: "#4c69d5",
               }}
             />
           </Link>
-          <p>My Resume</p>
+          <p className="blue_text_style">My Resume</p>
         </div>
       </div>
       <div className="text-center mx-[5vw] my-[5vh] p-[10vh] bg-orange-300 bg-opacity-25 rounded-lg">

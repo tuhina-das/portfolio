@@ -2,7 +2,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-const Dropdown = () => {
+const Dropdown = (props) => {
+  const isResearch = props.isResearch;
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -17,7 +19,7 @@ const Dropdown = () => {
     <div className="w-full blue_text_style">
       <div className="relative inline-block">
         <button type="button" onClick={toggleDropdown}>
-          Research{" "}
+          {isResearch ? "Research" : "Projects"}
         </button>
 
         {isOpen && (
@@ -28,22 +30,42 @@ const Dropdown = () => {
               aria-labelledby="options-menu"
             >
               <li>
-                <a
-                  href="/primary-sources"
-                  className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  onClick={closeDropdown}
-                >
-                  Primary Sources
-                </a>
+                {isResearch ? (
+                  <a
+                    href="/primary-sources"
+                    className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={closeDropdown}
+                  >
+                    Primary Sources
+                  </a>
+                ) : (
+                  <a
+                    href="/original-work"
+                    className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={closeDropdown}
+                  >
+                    Original Work
+                  </a>
+                )}
               </li>
               <li>
-                <a
-                  href="/secondary-sources"
-                  className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  onClick={closeDropdown}
-                >
-                  Secondary Sources
-                </a>
+                {isResearch ? (
+                  <a
+                    href="/secondary-sources"
+                    className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={closeDropdown}
+                  >
+                    Secondary Sources
+                  </a>
+                ) : (
+                  <a
+                    href="/final-product"
+                    className="blue_text_style block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={closeDropdown}
+                  >
+                    Final Product
+                  </a>
+                )}
               </li>
             </ul>
           </div>

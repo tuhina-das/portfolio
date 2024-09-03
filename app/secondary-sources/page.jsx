@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SecondarySources = () => {
   return (
@@ -17,7 +18,7 @@ const SecondarySources = () => {
             ></Image>
             <div className="text-left p-[2vh] m-[4vh]">
               <h1 className="pb-[2vh]">SOURCE&apos;S TITLE HERE</h1>
-              <p>
+              <p className="pb-[2vh]">
                 This section will have a short summary of the source and what I
                 learned, as well as a page link to read more about the source in
                 depth. Next to each description will be an image related to the
@@ -30,6 +31,9 @@ const SecondarySources = () => {
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
+              <Link href="" className="underline text-blue-700">
+                Click here to learn more
+              </Link>
             </div>
           </div>
         </div>

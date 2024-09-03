@@ -29,7 +29,10 @@ const Nav = () => {
             <Link href="/my-work">My Work</Link>
           </span> */}
           <span>
-            <Dropdown></Dropdown>
+            <Dropdown isResearch={true}></Dropdown>
+          </span>
+          <span>
+            <Dropdown isResearch={false}></Dropdown>
           </span>
           <span className="blue_text_style">
             <Link href="/mentor">Mentor</Link>
