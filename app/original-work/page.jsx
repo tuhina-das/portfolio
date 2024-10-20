@@ -5,6 +5,7 @@ import Link from "next/link";
 const OriginalWork = () => {
   return (
     <>
+      <title>Original Work</title>
       <div className="flex flex-col mx-auto items-center text-center max-w-5xl my-[3vh] p-3">
         <h1 className="text-5xl gradient_text my-[3vh]">ORIGINAL WORK</h1>
         <div className="w-[90vw] p-[3vh] rounded-2xl shadow-2xl shadow-[#5ec7ff] bg-white">

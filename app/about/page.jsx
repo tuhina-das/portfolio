@@ -5,10 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
+import Head from "next/head";
 
 const About = () => {
   return (
     <>
+      <title>About Me</title>
       {/* border-solid border-[5px] border-black */}
       <div className="flex flex-col mx-auto items-center text-center max-w-5xl my-[3vh] p-3">
         <h1 className="text-5xl gradient_text my-[3vh]">ABOUT ME</h1>

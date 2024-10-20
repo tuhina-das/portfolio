@@ -4,6 +4,7 @@ import Image from "next/image";
 const aboutISM = () => {
   return (
     <>
+      <title>About ISM</title>
       <div className="flex flex-col mx-auto items-center text-center max-w-5xl my-[3vh] p-3">
         <h1 className="text-5xl gradient_text my-[3vh]">ABOUT ISM</h1>
         <Image
