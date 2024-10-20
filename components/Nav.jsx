@@ -15,7 +15,7 @@ const Nav = () => {
           <h1 className="nav_logo_text">TUHINA DAS</h1>
         </Link>
         {/* Navbar */}
-        <div className="sm:hidden md:hidden lg:flex space-x-5 justify-end w-[60%]">
+        <div className="hidden lg:flex space-x-5 justify-end w-[60%]">
           <span className="blue_text_style">
             <Link href="/">Home</Link>
           </span>
