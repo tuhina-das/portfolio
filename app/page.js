@@ -13,6 +13,10 @@ export default function Home() {
       {/* Home Page Content */}
       <div className="mx-auto text-center max-w-5xl my-[30vh] px-3">
         <div className="mx-auto text-center max-w-5xl my-[30vh] px-3">
+          <p className="text-center text-red-600 my-[5vh]">
+            Note for mobile users: tabs for primary research, original work, and
+            final product coming soon!
+          </p>
           {/* <div className="align-middle flex justify-between px-[2vw] mx-auto max-w-full border-solid border-[#2563eb] border-[1px] rounded-lg hadow-2xl shadow-[#48abe0] bg-white"> */}
           <h1 className="text-8xl gradient_text">Hi, I&apos;m Tuhina Das!</h1>
           <div className="mt-[3vh]">
