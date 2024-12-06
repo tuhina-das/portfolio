@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Foot from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <main className="app">
           <Nav></Nav>
           {children}
+          <Analytics />
         </main>
         <Foot></Foot>
       </body>
